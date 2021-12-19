@@ -67,8 +67,6 @@ scrollbar1.configure(command=text1.yview)
 text1.configure(yscrollcommand=scrollbar1.set)
 
 
-
-
 combo2=ttk.Combobox(root,values=languageV,font="Roboto 14", state="r")
 combo2.place(x=730,y=20)
 combo2.set("SELECT LANGUAGE")
